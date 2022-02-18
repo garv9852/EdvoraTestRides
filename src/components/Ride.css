@@ -1,0 +1,153 @@
+.First-container{
+    background-color: black;
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Second-container{
+    background-color: rgb(39, 39, 39);
+    height: 100%;
+}
+.User-details{
+    display: flex;
+    align-items: center;
+}
+
+.All-rides-container{
+    display: flex;
+    justify-content: space-between;
+}
+.Rides-selector{
+    height: 12vh;
+    display: flex;
+    align-items: center;
+}
+.Rides-selector h3{
+    margin: 0;
+    margin-left: 4rem;
+    color: white;
+    cursor: pointer;
+}
+.selected{
+    border-bottom:2px white solid
+}
+.filter-icon{
+    color: white;
+    font-size: xx-large;
+}
+.Filter-icon-container{
+    DISPLAY: flex;
+    ALIGN-ITEMS: center;
+    MARGIN-RIGHT: 4REM;
+    cursor: pointer;
+}
+
+.Rides-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Ride-tab{
+    height: 25vh;
+    width: 93vw;
+    background-color: black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.first{
+    display: flex;
+    height: 25vh;
+}
+
+.Ride-details{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    justify-content: center;
+    width: 26vw;
+}
+.Ride-details div{
+    color: white;
+    margin-bottom: 0.6rem;
+}
+
+.Ride-details span{
+    color: gray;
+    margin-bottom: 0.6rem;
+}
+
+.Loaction-img{
+    height: 100%;
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Location-details{
+    display: flex;
+    margin-top: 1rem;
+    margin-right: 2rem;
+}
+
+.Location-details div{
+    padding: 1px 8px 1px 8px;
+    height: 22px;
+    color: white;
+    background-color: rgb(37, 37, 37);
+    border-radius: 12px;
+    text-align: center;
+    font-size: small;
+    margin-right: 1rem;
+}
+
+.States-names{
+    background-color: #1f1f1f;
+    color: white;
+    border-radius: 9px;
+    height: 2rem;
+    width: 7rem;
+    outline: 0;
+    text-align: center;
+    border: 0;
+}
+
+.Filter-container div{
+    color: white;
+    margin-bottom: 13px;
+}
+
+.Cities-names{
+    background-color: #1f1f1f;
+    color: white;
+    border-radius: 9px;
+    height: 2rem;
+    width: 7rem;
+    outline: 0;
+    text-align: center;
+    border: 0; 
+}
+
+.Filter-container{
+    height: 20vh;
+    width: 11vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid gray;
+    border-radius: 19px;
+    flex-direction: column;
+    position: absolute;
+    top: 159px;
+    right: 73px;
+}
+.Filter-container select{
+    margin-bottom: 10px;
+}
