@@ -27,7 +27,7 @@ function Login(props) {
         props.ChangeUser(user);
       }
       reader.readAsDataURL(file);
-      history(`/ride${stationCode}`);
+      history(`./ride${stationCode}`);
     }
   return (
     <div>
