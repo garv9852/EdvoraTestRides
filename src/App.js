@@ -12,8 +12,8 @@ function App() {
     <BrowserRouter>
       <Provider store={store}>
         <Routes>
-          <Route path="/ride:code" element={<Ride/>}/>
-          <Route path="/" element={<Login/>}/>
+          <Route path="EdvoraTestRides/ride:code" element={<Ride/>}/>
+          <Route path="/EdvoraTestRides" element={<Login/>}/>
         </Routes>
       </Provider>
     </BrowserRouter>
